@@ -1,0 +1,103 @@
+{
+    "colleges": [
+        {
+            "name": "Ele Engineering",
+            "departments": [
+                "ECE",
+                "CS"
+            ],
+            "courses": [
+                "CS101",
+                "CS102",
+                "EE201"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "id": "CS101",
+            "name": "programming",
+            "credits": 3,
+            "department": "CS",
+            "min_level": 1,
+            "professor_id": "PR001"
+        },
+        {
+            "id": "MATH201",
+            "name": "math",
+            "credits": 4,
+            "department": "ECE",
+            "min_level": 2
+        }
+    ],
+    "professors": [
+        {
+            "id": "PR001",
+            "name": "Dr.Ali Mohamed",
+            "department": "CS",
+            "courses": [
+                "CS101",
+                "CS102"
+            ]
+        }
+    ],
+    "students": [
+        {
+            "id": "001",
+            "name": "Ahmed Mohamed",
+            "level": 2,
+            "college": "Ele.Engineering",
+            "courses": [
+                "CS101",
+                "MATH201"
+            ],
+            "attendance": {
+                "CS101": [
+                    "2023-10-01",
+                    "2023-10-08"
+                ],
+                "MATH201": []
+            },
+            "grades": {
+                "CS101": "A",
+                "MATH201": "B+"
+            }
+        },
+        {
+            "id": "002",
+            "name": "Ahmed sayed",
+            "level": 2,
+            "college": "Ele.Engineering",
+            "courses": [],
+            "attendance": {},
+            "grades": {}
+        },
+        {
+            "id": 5,
+            "name": "mohsen",
+            "level": 2,
+            "college": "eng",
+            "courses": [],
+            "attendance": {},
+            "grades": {}
+        }
+    ],
+    "admins": [
+        {
+            "id": "AD001",
+            "name": "Manager"
+        }
+    ],
+    "grades": [
+        {
+            "course": "math",
+            "student_id": 1001,
+            "grade": 88.5
+        },
+        {
+            "course": "math",
+            "student_id": 1777,
+            "grade": 77.0
+        }
+    ]
+}
